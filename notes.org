@@ -1,0 +1,9 @@
+* Ideas for this theme [0/3]
+
+** TODO Index page, post title should be different color than first header in article
+css: =article > h2= needs different color than =article .summary h2=
+
+** TODO Archive page, make links to articles more distinct than post date
+
+** TODO More colors in general
+maybe pick a backbone theme to start from
