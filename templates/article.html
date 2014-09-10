@@ -37,6 +37,12 @@
                     </div>
                 </div>
                 {{ article.content }}
+                {% if article.exported_filename %}
+                <div>
+                  <span class="label label-default">File</span>
+                  {{ article.exported_filename }}
+                </div>
+                {% endif %}
             </div>
             <!-- /.entry-content -->
             {% include 'includes/related-posts.html' %}
